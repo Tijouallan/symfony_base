@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}
+{{ burger.name }}
+{% endblock %}
+
+{% block content %}
+    <div>
+        <a  href={{ path('burgers') }}>LE LIEN</a>
+        <div ></div>
+    </div>
+<div>
+    <h1>{{ burger.name }}</h1>
+    <p>{{ burger.description }}</p>
+    <p >{{ burger.price }}</p>
+</div>
+{% endblock %}
