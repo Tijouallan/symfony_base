@@ -1,15 +1,17 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}
-    {{ title }}
+     { Liste des burgers } 
 {% endblock %}
 
 
 
 
 {% block body %}
+
     <a href="{{ path('app_home') }}" >HOME</a>
     <div class="">
+     <h1> Liste des burgers </h1>
 {% for burger in burgers %}
     <div>
         <a 

@@ -12,11 +12,11 @@ class BurgerController extends AbstractController
 {
 
     public $burgers = [
-        ['id' => 'burger_1', 'name' => "Classic", 'description' => "Steak haché de boeuf, cheddar, emmental, bacon, cornichons, oignons grillés, sauce poivre et mayonnaise", 'price' => 10.99],
-        ['id' => 'burger_2', 'name' => "Auvergnat", 'description' => "Steak haché de boeuf, fourme d'Ambert, cheddar, emmental, bacon, oignons grillés, cornichons, sauce poivre et mayonnaise", 'price' => 11.99],
-        ['id' => 'burger_3', 'name' => "Végétarien", 'description' => "Galette de pomme de terre, cheddar, emmental, tomate, oignons grillés, salade, sauce moutarde et miel", 'price' => 9.99],
-        ['id' => 'burger_4', 'name' => "Double", 'description' => "Deux steaks hachés de boeuf, cheddar, emmental, bacon, cornichons, oignons grillés, sauce poivre et mayonnaise", 'price' => 13.99],
-        ['id' => 'burger_5', 'name' => "Poulet BBQ", 'description' => "Filet de poulet croustillant, cheddar, emmental, salade, tomate, oignons grillés, sauce barbecue", 'price' => 10.99]
+        ['id' => '1', 'name' => "Classic", 'description' => "Steak haché de boeuf, cheddar, emmental, bacon, cornichons, oignons grillés, sauce poivre et mayonnaise", 'price' => 10.99],
+        ['id' => '2', 'name' => "Auvergnat", 'description' => "Steak haché de boeuf, fourme d'Ambert, cheddar, emmental, bacon, oignons grillés, cornichons, sauce poivre et mayonnaise", 'price' => 11.99],
+        ['id' => '3', 'name' => "Végétarien", 'description' => "Galette de pomme de terre, cheddar, emmental, tomate, oignons grillés, salade, sauce moutarde et miel", 'price' => 9.99],
+        ['id' => '4', 'name' => "Double", 'description' => "Deux steaks hachés de boeuf, cheddar, emmental, bacon, cornichons, oignons grillés, sauce poivre et mayonnaise", 'price' => 13.99],
+        ['id' => '5', 'name' => "Poulet BBQ", 'description' => "Filet de poulet croustillant, cheddar, emmental, salade, tomate, oignons grillés, sauce barbecue", 'price' => 10.99]
 
     ];
     #[Route('/burgers', name: 'burgers')]
